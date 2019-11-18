@@ -1,0 +1,22 @@
+{
+  "name": "eggadmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Janden",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.25.0",
+    "egg-redis": "^2.4.0",
+    "egg-sequelize": "^5.2.0",
+    "mysql2": "^2.0.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.0",
+    "sequelize-cli": "^5.5.1"
+  }
+}
